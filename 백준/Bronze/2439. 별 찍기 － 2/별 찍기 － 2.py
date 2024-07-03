@@ -1,3 +1,3 @@
 a=int(input())
-for i in range(1,a+1):
-    print(" "*(a-i) + "*"*i)
+for num in range(1,a+1):
+    print(" "* (a-num ) + "*" *num)
