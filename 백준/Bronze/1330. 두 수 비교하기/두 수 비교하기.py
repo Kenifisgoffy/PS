@@ -1,9 +1,7 @@
-C=input().split()
-A = int(C[0])
-B = int(C[1])
-if A<B:
+hu = list(map(int,input().split())) 
+if hu[0] < hu[1] :
   print("<")
-elif A>B:
+elif hu[0] > hu[1] :
   print(">")
-elif A==B:
+elif hu[0] == hu[1] :
   print("==")
