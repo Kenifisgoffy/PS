@@ -1,0 +1,8 @@
+L,P = map(int,input().split())
+A = list(map(int,input().split()))
+B = A[0] - (L * P)
+C = A[1] - (L * P)
+D = A[2] - (L * P)
+E = A[3] - (L * P)
+F = A[4] - (L * P)
+print (B,C,D,E,F)
